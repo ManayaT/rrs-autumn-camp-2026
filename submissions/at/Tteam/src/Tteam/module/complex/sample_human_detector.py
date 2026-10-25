@@ -375,7 +375,7 @@ class SampleHumanDetector(HumanDetector):
     self._clustering: Clustering = cast(
       Clustering,
       module_manager.get_module(
-        "Tteam.HumanDetector.Clustering",
+        "tteam.HumanDetector.Clustering",
         "adf_core_python.implement.module.algorithm.k_means_clustering.KMeansClustering",
       ),
     )
